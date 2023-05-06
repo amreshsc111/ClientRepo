@@ -22,8 +22,13 @@ export default  function Approve() {
             isUserVerified && (
                 <div>
                 <div>
-                    <h1>Avaliable Request of Land</h1>
-                    <button onClick={getAllRequests}>Available Requests</button>
+                    <h1 className='underline decoration-indigo-500'>Avaliable Request of Land</h1>
+                    <button
+		        className='inline-block rounded-lg bg-orange-500 px-6 pb-2 pt-2.5 font-medium text-white animate-bounce hover:shadow-lg hover:no-underline'
+		        onClick={getAllRequests}
+		    >
+		        Available Requests
+		    </button>
                 </div>
                 <div>
                     {
