@@ -1,6 +1,5 @@
 import React from 'react'
 import {hero} from '../../data'
-import Header from './Header'
 
 const Home = () => {
     // destructure hero data
@@ -25,6 +24,13 @@ const Home = () => {
 	                    >
 	                        {subtitle}
 	                    </p>
+			    <a 
+			        className='inline-block rounded-lg bg-orange-500 px-6 pb-2 pt-2.5 font-medium uppercase leading-normal text-white animate-bounce hover:shadow-lg hover:no-underline'
+				href='/user'
+				role='button'
+			    >
+				Get Started
+			    </a>
                     </div>
 	                {/* image */}
 	                <div className='flex-1' data-aos='fade-up' data-aos-delay='800'>
