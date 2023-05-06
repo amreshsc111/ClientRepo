@@ -19,8 +19,13 @@ export default function MyLands() {
         {isUserVerified && (
                     <div>
                     <div>
-                        <h1>View Your Land Information:</h1>
-                        <button onClick={getAllLand}>View owned lands</button>
+                        <h1 className='underline decoration-indigo-500'>View Your Land Information:</h1>
+                        <button
+	                      className='inline-block rounded-lg bg-orange-500 px-6 pb-2 pt-2.5 font-medium text-white animate-bounce hover:shadow-lg hover:no-underline'
+	                      onClick={getAllLand}
+	                >
+	                    View owned lands 
+	                </button>
                     </div>
                     <div>
                         {
