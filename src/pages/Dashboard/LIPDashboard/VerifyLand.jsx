@@ -12,8 +12,13 @@ export default function VerifyLand() {
 	return (
     <div>
 		<div>
-			<h1>Lands to Verify:</h1>
-			<button onClick={getUserAllData}>Land Verification</button>
+			<h1 className='underline decoration-indigo-500'>Lands to Verify:</h1>
+			<button
+		            className='inline-block rounded-lg bg-orange-500 px-6 pb-2 pt-2.5 font-medium text-white animate-bounce hover:shadow-lg hover:no-underline'
+			    onClick={getUserAllData}
+                        >
+	                       Land Verification
+		        </button>
 		</div>
 		<div>
 	        {
