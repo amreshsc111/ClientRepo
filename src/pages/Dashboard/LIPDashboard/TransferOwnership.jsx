@@ -9,8 +9,10 @@ export default function TransferOwnership() {
 	return (
 		<div>
 			<div>
-				<h1>Available Request To Transfer Land Ownership</h1>
-				<button onClick={getApprovedRequests}>Approved Requests</button>
+				<h1 className='underline decoration-indigo-500'>Available Request To Transfer Land Ownership</h1>
+				<button
+				    className='inline-block rounded-lg bg-orange-500 px-6 pb-2 pt-2.5 font-medium text-white animate-bounce hover:shadow-lg hover:no-underline'
+			            onClick={getApprovedRequests}>Approved Requests</button>
 			</div>
 			<div>
 			{
