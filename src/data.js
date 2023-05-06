@@ -1,5 +1,5 @@
 import LogoImg from '../src/assets/img/header/logo-1.svg';
-import WelcomeImg from '../src/assets/img/hero/hero-1.svg';
+import WelcomeImg from '../src/assets/img/hero/hero-1.jpg';
 
 export const header = {
     logo: LogoImg,
