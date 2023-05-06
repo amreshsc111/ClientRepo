@@ -16,7 +16,7 @@ export default function Dashboard() {
 	return (
 		<div>
 			<div>
-				<h1>User Details</h1>
+				<h1 className='underline decoration-indigo-500'>User Details</h1>
 				{/* <button onClick={getUserData}>User Details</button> */}
 				{/* <button
       onClick={getUserData}
