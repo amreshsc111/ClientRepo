@@ -24,8 +24,13 @@ export default function RequestLand() {
             isUserVerified && (
                 <div>
                 <div>
-                    <h1>Avaliable Lands</h1>
-                    <button onClick={getAllLands}>Available Lands</button>
+                    <h1 className='underline decoration-indigo-500'>Avaliable Lands</h1>
+                    <button 
+		        className='inline-block rounded-lg bg-orange-500 px-6 pb-2 pt-2.5 font-medium text-white animate-bounce hover:shadow-lg hover:no-underline'
+		        onClick={getAllLands}
+	            >
+	                Available Lands
+	            </button>
                 </div>
                 <div>
                     {
