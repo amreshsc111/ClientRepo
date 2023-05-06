@@ -45,13 +45,15 @@ const User = () => {
 
     return (
         <>
+	    <div className="flex flex-col items-center justify-center mt-10">
         {/* Additional change */}
         	{!currentAccount && (
-	            <Button size="lg" color="amber" className="flex items-center gap-3 m-15" onClick={connectWallet}>
+	            <Button size="lg" className="bg-amber-400 hover:bg-amber-500 text-gray-800 font-bold py-4 px-4 rounded" onClick={connectWallet}>
 					{/* <img src="/src/metamask.svg" alt="metamask" className="h-6 w-6" /> */}
 	            	Connect with Metamask Wallet
 	            </Button>
 	        )}
+	    </div>
 
         { !isAdmin && currentAccount &&
          (           <Card color="transparent" shadow={false} className="content-center">
